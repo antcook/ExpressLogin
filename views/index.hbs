@@ -1,0 +1,12 @@
+<div class="bar">
+	
+	{{#if user}} 
+		<div class="user">
+			<p>Hello, {{ user.firstName }} | <a href="/profile">Profile</a> | <a href="/logout">Logout</a></p>
+		</div>
+	{{else}}
+			<a class="login-button" href="/login">Login</a>
+			<a class="register-button" href="/register">Register</a>
+	{{/if}}
+
+</div>

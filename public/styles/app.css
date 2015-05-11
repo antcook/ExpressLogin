@@ -1,0 +1,110 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700,300);
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	font: 100%/1.5 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+h1 {
+	font-weight: 300;
+	text-align: center;
+	margin-top: 100px;
+}
+
+p {
+	margin: 0;
+	padding: 10px;
+}
+
+form {
+	width: 500px;
+	margin: 0 auto;
+	background: #f7f7f7;
+	padding: 40px;
+}
+
+form label {
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+form input {
+	margin: 5px 0 15px 0;
+	border: solid 1px #ddd;
+	padding: 10px;
+	width: 100%;
+}
+
+form .submit {
+	background: #35c2db;
+	border: none;
+	color: #FFF;
+	font-weight: bold;
+	border: solid 1px #2da6bc;
+	margin-top: 15px;
+}
+
+form .error {
+	background: #db3635;
+	color: #FFF;
+	padding: 8px;
+	margin-bottom: 15px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.bar {
+	background: #35c2db;
+	color: #FFF;
+	font-weight: bold;
+	text-align: right;
+}
+
+.user {
+	background: #2da4b9;
+	display: inline-block;
+	padding: 15px;
+	text-align: center;
+}
+
+.user a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.login-button, .register-button {
+	background: #2da4b9;
+	display: inline-block;
+	padding: 15px;
+	width: 200px;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	float: right;
+}
+
+.login-button:hover, .register-button:hover {
+	background: #0f6170;
+}
+
+.register-button {
+	background: #268394;
+}
+
+.bar:before,
+.bar:after {
+    content: " ";
+    display: table;
+}
+
+.bar:after {
+    clear: both;
+}
